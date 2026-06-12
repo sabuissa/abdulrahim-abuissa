@@ -278,3 +278,12 @@ footer {
         gap: 0;
     }
 }
+/* ===== Contact panel ===== */
+.contact-panel {
+    background-color: #202024;
+    border: 1px solid #2E2E34;
+    border-radius: 12px;
+    padding: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
