@@ -175,21 +175,25 @@ footer {
     }
 }
 /* ===== Contact form ===== */
+/* ===== Contact form ===== */
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     margin-top: 24px;
+    max-width: 500px;
 }
 
 .contact-form label {
     color: #FFFFFF;
     font-weight: bold;
-    margin-top: 12px;
+    margin-top: 14px;
+    display: block;
 }
 
 .contact-form input,
 .contact-form textarea {
+    width: 100%;
     background-color: #1E1E20;
     border: 1px solid #3A3A40;
     border-radius: 6px;
@@ -199,14 +203,18 @@ footer {
     font-size: 16px;
 }
 
+.contact-form textarea {
+    resize: vertical;
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
     border-color: #E8742C;
 }
 
-.contact-form .btn {
-    margin-top: 20px;
+.contact-form button {
+    margin-top: 24px;
     align-self: flex-start;
     border: none;
     cursor: pointer;
@@ -214,7 +222,9 @@ footer {
 }
 
 .contact-info {
-    margin-top: 40px;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #3A3A40;
     color: #A0A0A8;
 }
 
