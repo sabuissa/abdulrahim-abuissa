@@ -32,10 +32,12 @@ nav {
 
 .logo {
     color: #FFFFFF;
-    font-weight: bold;
-    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
     text-decoration: none;
-    letter-spacing: 0.3px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .nav-links {
