@@ -41,7 +41,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 36px;
+    gap: 28px;
     margin: 0;
     padding: 0;
 }
@@ -326,6 +326,37 @@ footer {
     margin-top: 48px;
     margin-bottom: 48px;
 }
+/* ===== Tags (interests) ===== */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tag {
+    border: 1px solid #D9B45C;
+    color: #D9B45C;
+    padding: 7px 18px;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/* ===== Card link ===== */
+.card-link {
+    display: inline-block;
+    color: #D9B45C;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 16px;
+    letter-spacing: 0.3px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
 /* ===== About page images ===== */
 .about-img {
     width: 100%;
