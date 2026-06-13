@@ -93,7 +93,7 @@ nav {
     margin: 0 auto;
     padding: 140px 20px;
     text-align: center;
-    background-image: linear-gradient(rgba(20, 20, 22, 0.82), rgba(20, 20, 22, 0.88)), url('images/hero.jpg');
+    background-image: linear-gradient(rgba(20, 20, 22, 0.82), rgba(20, 20, 22, 0.88)), url('images/hero.JPG');
     background-size: cover;
     background-position: center 30%;
 }
