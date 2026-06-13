@@ -6,7 +6,7 @@
 
 **Purpose:** A personal website to establish his professional identity online — a single home base that tells his story across basketball, business, and community work, and gives people a clear way to reach him. He has a registered domain and plans to launch a personal site, so this serves as a real first version.
 
-**Audience:** Sponsors, media, partners, and people in the sports and business world who come across his name and want to learn who he is and get in touch. (Inferred from his profile — confirm emphasis with him.)
+**Audience:** Sponsors, media, partners, and people in the sports and business world who come across his name and want to learn who he is and get in touch. 
 
 **Key action:** Get in touch — the site guides visitors toward the contact page so opportunities (partnerships, speaking, collaborations) can reach him directly.
 
