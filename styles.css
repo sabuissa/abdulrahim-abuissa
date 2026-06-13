@@ -336,4 +336,5 @@ footer {
     margin: 20px 0;
     display: block;
     border: 1px solid #2E2E34;
+    object-position: top;
 }
