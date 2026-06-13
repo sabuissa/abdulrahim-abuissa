@@ -15,7 +15,7 @@ body {
 /* ===== Header / Nav ===== */
 header {
     background-color: #141416;
-    border-bottom: 2px solid #E8742C;
+    border-bottom: 2px solid #D9B45C;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #E8742C;
+    color: #D9B45C;
 }
 
 .nav-links a::after {
@@ -72,7 +72,7 @@ nav {
     bottom: -4px;
     width: 0;
     height: 2px;
-    background-color: #E8742C;
+    background-color: #D9B45C;
     transition: width 0.2s;
 }
 
@@ -81,7 +81,7 @@ nav {
 }
 
 .nav-links a.active {
-    color: #E8742C;
+    color: #D9B45C;
 }
 
 .nav-links a.active::after {
@@ -99,7 +99,7 @@ nav {
 }
 
 .eyebrow {
-    color: #E8742C;
+    color: #D9B45C;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
@@ -124,7 +124,7 @@ nav {
 
 .btn {
     display: inline-block;
-    background-color: #E8742C;
+    background-color: #D9B45C;
     color: #FFFFFF;
     padding: 14px 32px;
     border-radius: 6px;
@@ -150,14 +150,14 @@ nav {
 .card {
     background-color: #242428;
     border: 1px solid #3A3A40;
-    border-top: 3px solid #E8742C;
+    border-top: 3px solid #D9B45C;
     border-radius: 8px;
     padding: 32px;
     text-align: center;
 }
 
 .card h3 {
-    color: #E8742C;
+    color: #D9B45C;
     font-size: 28px;
     margin-bottom: 12px;
 }
@@ -177,7 +177,7 @@ nav {
     color: #FFFFFF;
     font-size: 32px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #E8742C;
+    border-bottom: 2px solid #D9B45C;
     padding-bottom: 10px;
 }
 
@@ -262,7 +262,7 @@ footer {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-bottom-color: #E8742C;
+    border-bottom-color: #D9B45C;
 }
 
 .contact-form button {
@@ -281,7 +281,7 @@ footer {
 }
 
 .contact-info a {
-    color: #E8742C;
+    color: #D9B45C;
     text-decoration: none;
 }
 
@@ -298,15 +298,15 @@ footer {
 .social-btn {
     display: inline-block;
     padding: 10px 24px;
-    border: 1px solid #E8742C;
+    border: 1px solid #D9B45C;
     border-radius: 6px;
-    color: #E8742C !important;
+    color: #D9B45C !important;
     text-decoration: none !important;
     transition: background-color 0.2s, color 0.2s;
 }
 
 .social-btn:hover {
-    background-color: #E8742C;
+    background-color: #D9B45C;
     color: #FFFFFF !important;
 }
 
