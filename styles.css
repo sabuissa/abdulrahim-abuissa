@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #161618;
@@ -154,6 +158,12 @@ nav {
     border-radius: 8px;
     padding: 32px;
     text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
 .card h3 {
@@ -359,6 +369,13 @@ footer {
     border-radius: 4px;
     font-size: 14px;
     letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: default;
+}
+
+.tag:hover {
+    background-color: #D9B45C;
+    color: #1A1A1A;
 }
 
 /* ===== Card link ===== */
@@ -386,4 +403,21 @@ footer {
     display: block;
     border: 1px solid #2E2E34;
     object-position: top;
+    transition: transform 0.35s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.02);
+}
+
+/* ===== Scroll fade-in ===== */
+.fade-up {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
