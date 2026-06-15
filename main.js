@@ -1,3 +1,18 @@
+// Theme toggle
+const toggle = document.getElementById('themeToggle');
+if (toggle) {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    toggle.textContent = current === 'light' ? 'Dark' : 'Light';
+
+    toggle.addEventListener('click', () => {
+        const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        toggle.textContent = next === 'light' ? 'Dark' : 'Light';
+    });
+}
+
+// Scroll fade-in
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
