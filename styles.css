@@ -378,6 +378,17 @@ footer {
     color: #1A1A1A;
 }
 
+/* ===== Heading link ===== */
+.heading-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.heading-link:hover {
+    color: #D9B45C;
+}
+
 /* ===== Card link ===== */
 .card-link {
     display: inline-block;
